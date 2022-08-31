@@ -4,5 +4,8 @@
     box-sizing: border-box;
 }
 
+@import './section/variables/colores';
+@import './section/variables/typo';
+@import './section/variables/extend.scss';
 @import './section/header';
-
+@import './section/main-index';

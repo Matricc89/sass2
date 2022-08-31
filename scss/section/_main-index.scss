@@ -1,0 +1,26 @@
+.principal{
+    max-width: 60vh;//50vw - 40vw;
+    /* se puede restar, no se puede mesclar unidades de medida*/
+    @extend %estiloPrincipal;
+}
+.secundario{
+    max-width: 50vh;
+   h2{
+    @include estiloTexto(50px);
+   }
+}
+//condicionales
+
+$saludo: 55;
+
+.principal__h2{
+    @if ($saludo > 50){
+        color: blue;
+    }@if($saludo < 65) {
+        color: violet;
+    }
+     @else {
+        background-color: black;
+        color: white;
+    }
+}

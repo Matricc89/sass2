@@ -1,5 +1,5 @@
 .header{
-    background-color: bisque;
+    background-color: $ming;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +16,7 @@
             padding: 1rem;
             
             a{
-                color: black;
+                color: $amaran;
                 text-decoration: none;
             }
         }
